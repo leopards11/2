@@ -12,15 +12,12 @@ body {
   
   .hero-inner {
     max-width: 760px;
-    color:rgba(red, green, blue, alpha);
   }
   
   .hero h1 {
     font-weight: normal;
     font-size: 4rem;
     margin: 0;
-    color:rgba(red, green, blue, alpha);
-    color-scheme:var(:rgba);
   }
   
   .hero p {
@@ -41,4 +38,22 @@ body {
   img {
       width: 100%;
       
+  }
+
+  .section {
+      padding: 100px 20px;
+  }
+
+  .container {
+      max-width: 700px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 50px 50px;
+      position: relative;
+     background-color: #fff;
+     border-radius: 8px;
+     padding: 30px;
+     -webkit-box-shadow: 0 30px 60px -12px rgb(50 50 93 / 25%), 0 18px 36px -18px rgb(0 0 0 / 30%), 0 -12px 36px -8px rgb(0 0 0 / 3%);
+     box-shadow: 0 30px 60px -12px rgb(50 50 93 / 25%), 0 18px 36px -18px rgb(0 0 0 / 30%), 0 -12px 36px -8px rgb(0 0 0 / 3%);
+
   }
